@@ -1,6 +1,5 @@
 # Browser Wishlist
 
-
 ## Missing Cross-Browser Features
 
 |                                                             | Chrome             | Firefox       | Safari        | Why
