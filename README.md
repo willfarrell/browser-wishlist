@@ -16,7 +16,7 @@
 
 ## Other ideas and thoughts
 - [CompressionStream](https://caniuse.com/?search=CompressionStream): Support in Firefox and Safari. Include brotli and protobuf support.
-- [SubtleCrypto (digest)](https://caniuse.com/mdn-api_subtlecrypto_digest): Support NIST algorithms like SHA3
+- [SubtleCrypto (digest)](https://caniuse.com/mdn-api_subtlecrypto_digest): Support NIST algorithms like SHA3 and streams
 - [backgroundFetch](https://caniuse.com/mdn-api_serviceworkerregistration_backgroundfetch) (Chrome Only): I see a lot of promise for this around larger uploads in making them resilient. Having people close a tab before the upload is complete is a common pain point. Would love if uploads provided a progress indicator.
 - [Datalist Element](https://caniuse.com/datalist): An element that isn't used or talked about enough. Would love to see it implemented consistently across browsers, support styling.
 - [Feature-Policy](https://caniuse.com/feature-policy): Add supoort for `default` like CSP to allow better future proofing as new features are allowed.
