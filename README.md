@@ -6,14 +6,12 @@
 |-------------------------------------------------------------|--------------------|---------------|---------------|-------------
 |[Web Components (V1)](https://caniuse.com/custom-elementsv1) |                    |               | [Incomplete](https://bugs.webkit.org/show_bug.cgi?id=182671) | Accessibility / Sustainability - Be able to progressively enhance using the least amount of bandwidth
 |[HTTP/3](https://caniuse.com/http3)                          |                    |               | Experimental  | Performance
-|[CSS :has()](https://caniuse.com/css-has)                    | Experimental (105) | [Missing](https://bugzilla.mozilla.org/show_bug.cgi?id=418039) |               | Developer Experience
+|[CSS :has()](https://caniuse.com/css-has)                    |                    | [Missing](https://bugzilla.mozilla.org/show_bug.cgi?id=418039) |               | Developer Experience
 | [CSS Nesting](https://drafts.csswg.org/css-nesting/) | [Missing](https://groups.google.com/a/chromium.org/g/blink-dev/c/-GxQ0MIcons/m/dTi5stNrBAAJ?pli=1) | [Missing](https://github.com/mozilla/standards-positions/issues/695) | [Missing](https://github.com/WebKit/standards-positions/issues/69) | Sustainability
 |[SVG favicons](https://caniuse.com/link-icon-svg)            |                    |               | Missing       | Developer Experience - simplify code
 |[ui-serif, ui-sans-serif, ui-monospace fonts](https://caniuse.com/extended-system-fonts) | [Missing](https://bugs.chromium.org/p/chromium/issues/detail?id=1240117) | [Missing](https://bugzilla.mozilla.org/show_bug.cgi?id=1598879) |               | Accessibility / Performance
-|[AVIF Image format](https://caniuse.com/avif)                |                    |               | Missing(16)   | Sustainability / Performance - Shipping fewer bytes is a win for everyone
-|[inert](https://caniuse.com/mdn-api_htmlelement_inert)       |                    | Missing (104) |               | Accessibility
-|[MathML](https://caniuse.com/mathml)                         | Experimental (106) |               |               | Accessibility
-|[Shared Web Workers](https://caniuse.com/sharedworkers)      |                    |               | Missing (16)  | 
+
+- Improve accessibility interop - https://hidde.blog/at-interop/
 
 ## Other ideas and thoughts
 - [CompressionStream](https://caniuse.com/?search=CompressionStream): Support in Firefox and Safari. Include brotli and protobuf support.
